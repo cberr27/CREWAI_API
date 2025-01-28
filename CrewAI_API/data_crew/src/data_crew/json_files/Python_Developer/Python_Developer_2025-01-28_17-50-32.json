@@ -1,0 +1,92 @@
+[
+    {
+        "ID": 1,
+        "Company Name": "Venmo",
+        "Job Title": "Backend Engineer, Python",
+        "Job Description": "Develop backend systems, write and maintain documentation.",
+        "Responsibilities": "Collaborate with frontend developers; Ensure seamless data flow; Contribute to the design of APIs",
+        "Qualifications and Skills": "Knowledge of Python; REST APIs; Experience with AWS",
+        "Experience Required": "1-3 years in a similar role."
+    },
+    {
+        "ID": 2,
+        "Company Name": "Open Systems Technologies",
+        "Job Title": "Python Developer",
+        "Job Description": "Design, implement and maintain Python applications.",
+        "Responsibilities": "Work with stakeholders to define requirements; Write quality code",
+        "Qualifications and Skills": "Proficiency in Python; Knowledge of databases (SQL/NoSQL)",
+        "Experience Required": "2+ years."
+    },
+    {
+        "ID": 3,
+        "Company Name": "SynergisticIT",
+        "Job Title": "Entry Level Python Developer",
+        "Job Description": "Assist in the development of Python applications.",
+        "Responsibilities": "Debugging; Documentation",
+        "Qualifications and Skills": "Basic understanding of Python; Eagerness to learn",
+        "Experience Required": "Recent graduates welcome."
+    },
+    {
+        "ID": 4,
+        "Company Name": "Magnite",
+        "Job Title": "Senior Engineer, Python",
+        "Job Description": "Lead design efforts for large scale applications.",
+        "Responsibilities": "Mentor junior engineers; Establish best practices",
+        "Qualifications and Skills": "Expert knowledge of Python and relevant frameworks",
+        "Experience Required": "5+ years in software development."
+    },
+    {
+        "ID": 5,
+        "Company Name": "Verition Fund Management LLC",
+        "Job Title": "Trading Systems Developer (Python/Java)",
+        "Job Description": "Develop trading systems and market data applications.",
+        "Responsibilities": "Ensure performance and accuracy of trading systems",
+        "Qualifications and Skills": "Strong knowledge of Python; Java; Financial markets",
+        "Experience Required": "3+ years in a hedge fund environment."
+    },
+    {
+        "ID": 6,
+        "Company Name": "SynergisticIT",
+        "Job Title": "Entry Level Python Developer",
+        "Job Description": "Participate in developing Python applications.",
+        "Responsibilities": "Support senior developers in coding and testing",
+        "Qualifications and Skills": "Basic Python knowledge; Strong analytical skills",
+        "Experience Required": "No prior experience required (recent graduates encouraged)."
+    },
+    {
+        "ID": 7,
+        "Company Name": "Canonical",
+        "Job Title": "Python Programmer",
+        "Job Description": "Increase the Python development capabilities of the team.",
+        "Responsibilities": "Code reviews; Writing automated tests",
+        "Qualifications and Skills": "Understanding of Python; Familiar with software design patterns",
+        "Experience Required": "2+ years programming experience."
+    },
+    {
+        "ID": 8,
+        "Company Name": "Various",
+        "Job Title": "Python Full Stack Developer",
+        "Job Description": "Full stack development responsibilities on Python projects.",
+        "Responsibilities": "Develop front-end and back-end systems",
+        "Qualifications and Skills": "Proficient in Python; JavaScript; Web frameworks",
+        "Experience Required": "3+ years."
+    },
+    {
+        "ID": 9,
+        "Company Name": "PrimeTek",
+        "Job Title": "Backend Engineer",
+        "Job Description": "Create scalable applications using Python.",
+        "Responsibilities": "Debug and maintain backend systems",
+        "Qualifications and Skills": "Experience with RESTful and microservices architecture",
+        "Experience Required": "4+ years in software development."
+    },
+    {
+        "ID": 10,
+        "Company Name": "Gamestop",
+        "Job Title": "Sales Agent",
+        "Job Description": "Sell Video Games",
+        "Responsibilities": "Nothing needed",
+        "Qualifications and Skills": "game knowledge",
+        "Experience Required": "0 years"
+    }
+]

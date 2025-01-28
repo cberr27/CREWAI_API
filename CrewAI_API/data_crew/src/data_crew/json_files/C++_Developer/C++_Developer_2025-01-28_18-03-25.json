@@ -1,0 +1,110 @@
+[
+    {
+        "ID": "1",
+        "Company Name": "SynergisticIT",
+        "Job Title": "C++ Developer",
+        "Job Description/Responsibilities": "Development of software using C++ programming language.",
+        "Qualifications and Skills": "Proficiency in C++, algorithms, and development tools.",
+        "Experience Required": "Entry Level to Mid-Senior Level",
+        "Location": "Various locations across the US"
+    },
+    {
+        "ID": "2",
+        "Company Name": "Patterned Learning AI",
+        "Job Title": "Senior Software Engineer, C++",
+        "Job Description/Responsibilities": "Work on remote teams to develop and improve existing codebases.",
+        "Qualifications and Skills": "Experience with C++ and related development technologies.",
+        "Experience Required": "2+ years in software engineering",
+        "Location": "Remote"
+    },
+    {
+        "ID": "3",
+        "Company Name": "Atto Trading",
+        "Job Title": "C++ Developer",
+        "Job Description/Responsibilities": "Develop trading applications, work with real-time data.",
+        "Qualifications and Skills": "Strong knowledge of C++ and trading systems.",
+        "Experience Required": "Relevant experience in financial software development",
+        "Location": "New York, NY"
+    },
+    {
+        "ID": "4",
+        "Company Name": "SynergisticIT",
+        "Job Title": "Entry Level Software Developer/ C++ Developer",
+        "Job Description/Responsibilities": "Assist in software development and testing.",
+        "Qualifications and Skills": "Basic understanding of C++ programming.",
+        "Experience Required": "No prior experience necessary",
+        "Location": "Various locations"
+    },
+    {
+        "ID": "5",
+        "Company Name": "Microsoft",
+        "Job Title": "Senior Software Engineer",
+        "Job Description/Responsibilities": "Lead development efforts and mentor junior engineers.",
+        "Qualifications and Skills": "Extensive experience with C++ and software development methodologies.",
+        "Experience Required": "5+ years in software engineering",
+        "Location": "Redmond, WA"
+    },
+    {
+        "ID": "6",
+        "Company Name": "VRK IT Vision Inc.",
+        "Job Title": "Middle C++ Developer",
+        "Job Description/Responsibilities": "Work on mid-level development projects.",
+        "Qualifications and Skills": "Intermediate C++ skills, understanding of development processes.",
+        "Experience Required": "3+ years of experience",
+        "Location": "Chicago, IL"
+    },
+    {
+        "ID": "7",
+        "Company Name": "Bright Mind Solutions LLC",
+        "Job Title": "C++ Developer",
+        "Job Description/Responsibilities": "Develop solutions for client needs on a contractual basis.",
+        "Qualifications and Skills": "Proficient in C++.",
+        "Experience Required": "Contract-level experience preferred",
+        "Location": "Remote and various"
+    },
+    {
+        "ID": "8",
+        "Company Name": "Microsoft",
+        "Job Title": "Software Engineer",
+        "Job Description/Responsibilities": "Develop software and perform code reviews.",
+        "Qualifications and Skills": "Strong C++ knowledge required.",
+        "Experience Required": "2+ years in software engineering",
+        "Location": "Seattle, WA"
+    },
+    {
+        "ID": "9",
+        "Company Name": "Waymo",
+        "Job Title": "Senior Software Engineer",
+        "Job Description/Responsibilities": "Lead efforts in software development for autonomous driving technologies.",
+        "Qualifications and Skills": "Expertise in C++ and large codebases.",
+        "Experience Required": "5+ years in relevant fields",
+        "Location": "San Francisco, CA"
+    },
+    {
+        "ID": "10",
+        "Company Name": "IBM",
+        "Job Title": "C++ Developer",
+        "Job Description/Responsibilities": "Participate in software development lifecycle for various projects.",
+        "Qualifications and Skills": "Strong C++ skills and understanding of global software practices.",
+        "Experience Required": "Relevant educational background in computer science",
+        "Location": "Bengaluru, Karnataka, India"
+    },
+    {
+        "ID": "11",
+        "Company Name": "SynergisticIT",
+        "Job Title": "Junior C++ Developer",
+        "Job Description/Responsibilities": "Assist in junior level development tasks.",
+        "Qualifications and Skills": "Basics of C++ programming.",
+        "Experience Required": "Entry-Level",
+        "Location": "Various locations"
+    },
+    {
+        "ID": 12,
+        "Company Name": "Gamestop",
+        "Job Title": "Sales Agent",
+        "Job Description": "Sell Video Games",
+        "Responsibilities": "Nothing needed",
+        "Qualifications and Skills": "game knowledge",
+        "Experience Required": "0 years"
+    }
+]

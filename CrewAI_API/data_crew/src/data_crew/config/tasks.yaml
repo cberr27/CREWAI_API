@@ -2,7 +2,7 @@ retrieve_task:
   description: >
     Conduct a thorough research about the latest {topic} job roles in {url}
   expected_output: >
-    A list of {row_count} urls belonging to {topic} job roles found in {url}
+    A list of {row_count} urls belonging to indivual {topic} job roles found in {url}
   agent: data_retriever
 
 website_scrape_task:
