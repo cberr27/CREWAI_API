@@ -1,0 +1,131 @@
+[
+    {
+        "ID": 1,
+        "Company Name": "Shyam Steel Industries Limited",
+        "Job Title": "Python Developer",
+        "Job Description": "The role involves developing efficient and maintainable software using Python.",
+        "Responsibilities": "Design, code, test, and maintain software applications.",
+        "Qualifications and Skills": "Strong knowledge of Python and related frameworks.",
+        "Experience Required": "2-5 years in software development."
+    },
+    {
+        "ID": 2,
+        "Company Name": "Team Remotely",
+        "Job Title": "Junior Python Django Developer",
+        "Job Description": "Assist in the design and development of web applications.",
+        "Responsibilities": "Collaborate with the development team; write clean and efficient code.",
+        "Qualifications and Skills": "Basic proficiency in Python and Django.",
+        "Experience Required": "Entry-level or internship experience."
+    },
+    {
+        "ID": 4,
+        "Company Name": "Oracle",
+        "Job Title": "Data Science Intern - Global Industries",
+        "Job Description": "Work on data models and analyses to support product innovations.",
+        "Responsibilities": "Collaborate on project deliverables; perform data analysis and reporting.",
+        "Qualifications and Skills": "Knowledge of Python, SQL, and machine learning principles.",
+        "Experience Required": "Internship experience in data analysis or science."
+    },
+    {
+        "ID": 5,
+        "Company Name": "SynergisticIT",
+        "Job Title": "Python Developer (Entry Level)",
+        "Job Description": "Entry-level position for developing software solutions.",
+        "Responsibilities": "Participate in full software development lifecycle.",
+        "Qualifications and Skills": "Familiarity with Python and web development principles.",
+        "Experience Required": "Recent graduates."
+    },
+    {
+        "ID": 6,
+        "Company Name": "InnovatexIQ Solutions",
+        "Job Title": "Python Developer (Remote Intern)",
+        "Job Description": "Summer internship for supporting Python development projects.",
+        "Responsibilities": "Assist coding and debugging tasks.",
+        "Qualifications and Skills": "Basic knowledge of Python is a plus.",
+        "Experience Required": "Open to students and recent graduates."
+    },
+    {
+        "ID": 7,
+        "Company Name": "Sophilabs",
+        "Job Title": "Junior Python Developer",
+        "Job Description": "Entry-level role in developing web applications with Python.",
+        "Responsibilities": "Code components, collaborate with team members.",
+        "Qualifications and Skills": "Knowledge of Python and basic web technologies.",
+        "Experience Required": "Internship or educational projects."
+    },
+    {
+        "ID": 8,
+        "Company Name": "LTIMindtree",
+        "Job Title": "Python Developer (Remote)",
+        "Job Description": "Work on Python-based applications for clients.",
+        "Responsibilities": "Modify existing software and develop new functionalities.",
+        "Qualifications and Skills": "Proficient in Python with understanding of data structures.",
+        "Experience Required": "1-2 years."
+    },
+    {
+        "ID": 9,
+        "Company Name": "Venmo",
+        "Job Title": "Backend Engineer, Python",
+        "Job Description": "Develop and maintain scalable backend systems.",
+        "Responsibilities": "Collaborate with frontend teams to integrate APIs.",
+        "Qualifications and Skills": "Strong knowledge of Python and API development.",
+        "Experience Required": "2+ years of backend development experience."
+    },
+    {
+        "ID": 10,
+        "Company Name": "Citi",
+        "Job Title": "Python Developer (Intern)",
+        "Job Description": "Intern position focused on Python programming tasks.",
+        "Responsibilities": "Support senior developers in project tasks.",
+        "Qualifications and Skills": "Introductory understanding of Python.",
+        "Experience Required": "Open to new graduates."
+    },
+    {
+        "ID": "11",
+        "Job Role": "Senior Unreal Engine Developer",
+        "Company Name": "Rockstar Games",
+        "Job Title": "Senior Gameplay Programmer",
+        "Job Description": "Lead developer role for large-scale games.",
+        "Responsibilities": [
+            "- Ensure the efficiency of application performance.",
+            "- Lead a team of developers for project completion."
+        ],
+        "Qualifications and Skills": [
+            "- Deep understanding of C++/Unreal Engine and related technologies.",
+            "- Excellent debugging and problem-solving skills."
+        ],
+        "Experience Required": "8+ years"
+    },
+    {
+        "ID": "11",
+        "Job Role": "Senior Unreal Engine Developer",
+        "Company Name": "Rockstar Games",
+        "Job Title": "Senior Gameplay Programmer",
+        "Job Description": "Lead developer role for large-scale games.",
+        "Responsibilities": [
+            "- Ensure the efficiency of application performance.",
+            "- Lead a team of developers for project completion."
+        ],
+        "Qualifications and Skills": [
+            "- Deep understanding of C++/Unreal Engine and related technologies.",
+            "- Excellent debugging and problem-solving skills."
+        ],
+        "Experience Required": "8+ years"
+    },
+    {
+        "ID": "12",
+        "Job Role": "Senior Unreal Engine Developer",
+        "Company Name": "Rockstar Games",
+        "Job Title": "Senior Gameplay Programmer",
+        "Job Description": "Lead developer role for large-scale games.",
+        "Responsibilities": [
+            "- Ensure the efficiency of application performance.",
+            "- Lead a team of developers for project completion."
+        ],
+        "Qualifications and Skills": [
+            "- Deep understanding of C++/Unreal Engine and related technologies.",
+            "- Excellent debugging and problem-solving skills."
+        ],
+        "Experience Required": "8+ years"
+    }
+]

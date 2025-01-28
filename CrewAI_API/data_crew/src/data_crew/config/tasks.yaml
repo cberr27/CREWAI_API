@@ -1,0 +1,36 @@
+retrieve_task:
+  description: >
+    Conduct a thorough research about the latest {topic} job roles in {url}
+  expected_output: >
+    A list of {row_count} urls belonging to {topic} job roles found in {url}
+  agent: data_retriever
+
+website_scrape_task:
+    description: >
+      Scrape each url from previous task for all information regarding the latest job roles for {topic}
+    expected_output: >
+      Fully scraped website will all the important information from the website
+    agent: website_scraper
+
+data_fetch_task:
+    description: >
+      Fetch the {column_names} for each job role scraped by previous task
+    expected_output: >
+      Multiple collections each containing the data fetched for each individual job role
+    agent: data_fetcher
+
+csv_file_write_task:
+  description: >
+    Create and write csv file with all data obtained from all previous task in order by collection and also including incremental id number for each collection
+  expected_output: >
+    A newly created csv file in path data_crew/src/data_crew/csv_files/{topic}/{topic}_{date}.csv with all data
+    obtained from the collections from the previous task.
+  agent: csv_file_writer
+
+json_file_write_task:
+  description: >
+    Create and write json file with all data obtained from csv file created from previous task
+  expected_output: >
+    A newly created json file in path data_crew/src/data_crew/json_files/{topic}/{topic}_{date}.json from all the data 
+    inside csv file created in previous task
+  agent: json_file_writer

@@ -1,0 +1,45 @@
+[
+    {
+        "ID": 1,
+        "Company Name": "Tech Innovations Inc.",
+        "Job Title": "Python Developer",
+        "Job Description": "The Python Developer will work on backend applications to enhance the performance of our existing web services and develop new features.",
+        "Responsibilities": "Design and implement new application features; Optimize existing system performance; Collaborate with cross-functional teams to define, design, and ship new features.",
+        "Qualifications and Skills": "Proficiency in Python programming; Experience with Django or Flask frameworks; Familiarity with RESTful APIs and web services.",
+        "Experience Required": "3+ years of experience in Python development."
+    },
+    {
+        "ID": 3,
+        "Company Name": "CloudTech Solutions",
+        "Job Title": "Junior Python Developer",
+        "Job Description": "A Junior Python Developer position to contribute to the development of cloud-based applications and infrastructure automation tools.",
+        "Responsibilities": "Assist in the design and development of software; Collaborate with senior developers on project tasks; Participate in code reviews and debugging sessions.",
+        "Qualifications and Skills": "Basic understanding of Python programming; Exposure to cloud services and deployment; Strong problem-solving skills.",
+        "Experience Required": "0-2 years of experience in software development with an emphasis on Python."
+    },
+    {
+        "ID": 4,
+        "Company Name": "Citi Bank",
+        "Job Title": "Python Developer - Financial Services",
+        "Job Description": "Looking for a Python Developer to work on financial software applications, focusing on performance improvements and feature enhancements.",
+        "Responsibilities": "Analyze and document software requirements; Enhance existing software to meet client needs; Conduct system testing and debugging.",
+        "Qualifications and Skills": "Understanding of financial products and risk management; Experience with financial APIs; Strong analytical and numerical skills.",
+        "Experience Required": "3+ years of experience in software development with a focus on financial services."
+    },
+    {
+        "ID": "5",
+        "Job Role": "Senior Unreal Engine Developer",
+        "Company Name": "Rockstar Games",
+        "Job Title": "Senior Gameplay Programmer",
+        "Job Description": "Lead developer role for large-scale games.",
+        "Responsibilities": [
+            "- Ensure the efficiency of application performance.",
+            "- Lead a team of developers for project completion."
+        ],
+        "Qualifications and Skills": [
+            "- Deep understanding of C++/Unreal Engine and related technologies.",
+            "- Excellent debugging and problem-solving skills."
+        ],
+        "Experience Required": "8+ years"
+    }
+]
