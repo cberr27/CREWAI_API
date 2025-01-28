@@ -1,6 +1,7 @@
 import os
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, redirect, render_template, request
 import json
+from data_crew.src.data_crew import main
 
 
 app = Flask(__name__)
@@ -16,11 +17,13 @@ def get_latest_file(directory):
 
 latest_json_file = ""
 roles = ""
-directory_path = "data_crew\src\data_crew\json_files\Python_Developer"
+folder_name = "Python_Developer"
+directory_path = f"data_crew\src\data_crew\json_files\{folder_name}"
+
 
 def run_app():
     print("Running app...")
-    os.system("python data_crew\src\data_crew\main.py")
+    #main.run()
     global roles
     if os.path.exists(directory_path):
         global latest_json_file
@@ -32,6 +35,10 @@ def run_app():
 
 
 
+@app.route("/", methods=["GET"])
+def get_home():
+    return render_template("index.html")
+
 @app.route("/roles", methods=["GET"])
 def get_roles():
     return roles
@@ -42,26 +49,6 @@ def get_role(role_id):
         return jsonify({"error": "Role not found."}), 404
     else:
         return roles[role_id - 1]
-
-@app.route("/roles", methods=["POST"])
-def create_role():
-    global roles
-    new_role = {
-        "ID" : str(int(roles[len(roles) - 1]["ID"]) + 1),
-        "Job Role": "Senior Unreal Engine Developer",
-        "Company Name": "Rockstar Games",
-        "Job Title": "Senior Gameplay Programmer",
-        "Job Description": "Lead developer role for large-scale games.",
-        "Responsibilities": ["- Ensure the efficiency of application performance.",
-                             "- Lead a team of developers for project completion."],
-        "Qualifications and Skills": ["- Deep understanding of C++/Unreal Engine and related technologies.",
-                                      "- Excellent debugging and problem-solving skills."],
-        "Experience Required": "8+ years"
-    }
-    roles.append(new_role)
-    with open(latest_json_file, "w") as f:
-            json.dump(roles, f, indent=4)
-    return roles[len(roles) - 1]
 
 @app.route("/roles/<int:role_id>", methods=["PUT"])
 def update_role(role_id):
@@ -92,5 +79,72 @@ def delete_role(role_id):
         with open(latest_json_file, "w") as f:
             json.dump(roles, f, indent=4)
         return roles
+    
+@app.route("/fetch_roles", methods=["GET", "POST"])
+def fetch_form():
+    if request.method == "POST":
+        try:
+            job_role = request.form.get("job_role")
+            folder_name = main.change_topic(job_role)
+            directory_path = f"data_crew\src\data_crew\json_files\{folder_name}"
+        except KeyError:
+            return "Error: 'job_role' key not found in the form data"
+        main.run()
+        global roles
+        if os.path.exists(directory_path):
+            global latest_json_file
+            latest_json_file = os.path.relpath(get_latest_file(directory_path))
+            print("file name = " + latest_json_file)
+        with open(latest_json_file, 'r') as f:
+            roles = json.load(f)
+        return redirect("/roles")
+    return render_template("fetch_roles.html")
+
+@app.route("/add_role", methods=["GET", "POST"])
+def add_form():
+    if request.method == "POST":
+        # Get Data From Form
+        try:
+            company_name = request.form.get("company_name")
+        except KeyError:
+            return "Error: 'company_name' key not found in the form data"
+        try:
+            job_title = request.form["job_title"]        
+        except KeyError:
+            return "Error: 'job_title' key not found in the form data"
+        try:
+            job_description = request.form["job_description"]
+        except KeyError:
+            return "Error: 'job_description' key not found in the form data"
+        try:
+            responsibilites = request.form["responsibilites"]       
+        except KeyError:
+            return "Error: 'responsibilites' key not found in the form data"
+        try:
+            qualifications = request.form["qualifications"]        
+        except KeyError:
+            return "Error: 'qualifications' key not found in the form data"
+        try:
+            experience = request.form["experience_required"]
+        except KeyError:
+            return "Error: 'experience' key not found in the form data"
+        
+        # Add Data From Form To JSON file
+        global roles
+        new_role = {
+        "ID" : int(roles[len(roles) - 1]["ID"]) + 1,
+        "Company Name": company_name,
+        "Job Title": job_title,
+        "Job Description": job_description,
+        "Responsibilities": responsibilites,
+        "Qualifications and Skills": qualifications,
+        "Experience Required": experience
+        }
+        roles.append(new_role)
+        with open(latest_json_file, "w") as f:
+                json.dump(roles, f, indent=4)
+        return redirect("/roles")
+    return render_template("add_role.html")
+
 
 run_app()

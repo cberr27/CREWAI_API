@@ -1,0 +1,6 @@
+ID,Company Name,Job Title,Job Description,Responsibilities,Qualifications and Skills,Experience Required
+1,Company A,Junior Python Developer,Develop applications using Python,Write clean and efficient code,Python, Django, 1-2 years
+2,Company B,Senior Python Developer,Lead development projects, Mentor junior developers,Python, Django, 5+ years
+3,Company C,Python Data Scientist,Analyze data using Python,Conduct statistical analysis,Pandas, NumPy, 2-4 years
+4,Company D,Python Web Developer,Design and manage web applications,Collaborate with designers,HTML, Django, 3+ years
+5,Company E,Python DevOps Engineer,Automate cloud environments,Work with CI/CD pipelines,AWS, Docker, 4+ years
